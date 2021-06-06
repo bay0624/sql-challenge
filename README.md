@@ -2,6 +2,7 @@
 The goal of this challenge is to research and create a database for employees of a corporation from the 1980s and 1990s. All that remains of the database of employees from that period are in six CSV files.
 
 The first thing I did was to inspect the CSVs and create an Entity Relationship Diagram (ERD). I used Quick Database Design (http://www.quickdatabasediagrams.com) and below is the result:
+
 ![ERD](https://github.com/bay0624/sql-challenge/blob/main/EmployeeSQL/EmpolyeesDB_Schema.png)
 
 # Analysis
@@ -15,3 +16,9 @@ I exported the above Employees Database into PostgreSQL and then queried it to o
 - All employees in the Sales department, including their employee number, last name, first name, and department name.
 - All employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
 - The frequency count of employee last names, i.e., how many employees share each last name; in descending order.
+
+# Visualization
+Using SQLAlchemy, I then imported the database into Pandas. Using Seaborn and Matplotlib, I then proceeded to generate the following visualizations. 
+
+- <b>A Bar Graph showing the Average Salary by Title:</b> ![Barplot](https://github.com/bay0624/sql-challenge/blob/main/EmployeeSQL/salaries_bar.png)
+- <b>A Histogram showing the most Common Salary Ranges for Employees:</b> ![Barplot](https://github.com/bay0624/sql-challenge/blob/main/EmployeeSQL/salaries_hist.png)
