@@ -1,4 +1,7 @@
-# sql-challenge
+# Objective
+The goal of this challenge is to research employees of a corporation from the 1980s and 1990s. All that remains of the database of employees from that period are in six CSV files. 
+
+The 
 
 I queried the database to obtain the following results:
 
